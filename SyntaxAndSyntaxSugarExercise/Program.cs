@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            var awnser = 4;
+            var response = (awnser < 9) ? $"{awnser} is less then nine." : $"{awnser} is greater then nine.";
+            Console.WriteLine(response);
         }
     }
 }
